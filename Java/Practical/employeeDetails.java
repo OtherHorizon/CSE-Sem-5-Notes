@@ -1,8 +1,7 @@
-
 // Create a program to save the employee information using array in java
 import java.io.*;
 
-class WorkerDetail {
+class workerInfo {
     int code, salary;
     String WorkerName;
 
@@ -31,10 +30,10 @@ class employeeDetails {
     public static void main(String args[]) {
         int i;
         try {
-            WorkerDetail Worker[] = new WorkerDetail[3];
+            workerInfo Worker[] = new workerInfo[3];
             System.out.println("Enter the Details of three Workers");
             for (i = 0; i <= 2; i++) {
-                Worker[i] = new WorkerDetail();
+                Worker[i] = new workerInfo();
                 Worker[i].SetData();
             }
             System.out.println("The details of three Worker are :");

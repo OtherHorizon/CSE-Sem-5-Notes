@@ -6,18 +6,18 @@ class movie {
             String mname;
             System.out.print("\n\t Enter the movie name = ");
             mname = in.nextLine();
-            movies ob = new movies();
+            movieInfo ob = new movieInfo();
             ob.pricendetail(mname);
         }
     }
 }
 
-class movies {
+class movieInfo {
     String ma[] = new String[4];
     String mc[] = new String[4];
 
     // price per week=INR10.
-    movies() {
+    movieInfo() {
         ma[0] = "fast";
         ma[1] = "pearl harbor";
         ma[2] = "death note";
