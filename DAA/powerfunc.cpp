@@ -1,18 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int power(int x,int y){
-    int result = 1;
-    if(y==0){
+int power(int x, int y)
+{
+    int temp;
+    if( y == 0)
         return 1;
-    }else if(x ==0){
-        return 0;
-    }else{
-    for(int i = 0; i < y; ++i)
-    {
-        result *= x;
-    }}
-    return result;
+    temp = power(x, y / 2);
+    if (y % 2 == 0)
+        return temp * temp;
+    else
+        return x * temp * temp;
 }
 
 int main() {
