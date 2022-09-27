@@ -3,7 +3,13 @@
 - [Abstraction](#abstraction)
 - [Encapsulation and Data Privacy](#encapsulation-and-data-privacy)
 - [Features of OOPs](#features-of-oops)
-- [Polymorphism] 
+- [Polymorphism](#polymorphism)
+- [Throw and Throws](#throw-and-throws)
+- [ArrayList](#arraylist)
+- [Class and Object](#class)
+- [Hashtable](#hash-table)
+- [Hashmap](#hashmap)
+- [TreeMap](#treemap) 
 
 # Abstraction
 
