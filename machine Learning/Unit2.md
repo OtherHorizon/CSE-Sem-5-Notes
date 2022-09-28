@@ -1,3 +1,8 @@
+# CONTENT
+1. [Support Vector Machine](#support-vector-machine-svm)
+1. [Validation](#validation)
+1. [Cross Validation](#cross-validation-cv)
+
 # Support Vector Machine (SVM)
 - Margin
 - Support Vectors
@@ -39,3 +44,26 @@
 -  It is a techniques used for tuning the function by adding an additional penalty term in the error function.
 - The additional term controls the excessively fluctuating functuon such that the coefficient don't take extreme values.
 - This techniques of keeping a check or reducing the value of error coefficients are called shrinkage methods or weight decay in case of neural network.
+
+# KNN (K-Nearest Neighbour)
+- KNN algorithm is a type of supervised ML algorithm which can be used for both classification as well as regression predictive problems.
+- However, it is mainly used for classification predictive problems in industry.
+
+> - KNN algo uses "feature similarity" to predict the value of new datapoints which will be assigned a value based on how claosely it matches the points in the training set.
+> - K is the disadvantage of the KNN algo
+> - usually we take the value of K as a small value
+## The follwing two properties would define KNN well -
+- **Lazy Learning Algorithm** - KNN is a learning algorithm because it doesn not have a specialized trainign phase and uses all the data for trianing while classification.
+- **Non-parametric Learning Algorithm** - KNN is also a non-parametric learning algorithm becuase it doesn't assume anything about the underlying data.
+
+## KNN Pros
+-  There is no any way to identify value of K
+-  It is very simple algo to understand and interpret
+- It is very useful for nonlinear data because there is no assumption about \_\_\_\_ in this algorithm
+- It is a versatile algorithm as we can use it for classification as ell as regression.
+- It has relatively high accuracy but there are much better supervised leraning models than KNN
+## KNN cons
+- It is computationally a bit expensive algo because it stores all the training data
+- High memory storage requires as compared to othre supervised learning algorithm
+- Prediction is slow in case of Big O(N)
+- It is very sensitive to the scale of data as well as irrelevant features.
