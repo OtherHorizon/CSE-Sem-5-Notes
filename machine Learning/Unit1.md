@@ -74,10 +74,10 @@ In general, there are four types of distance metric used in Machine Learning
 
 ---
 
-- high bias -  high variance: predictuibs are inconsistent and inaccurate on average
-- low bias - low variance: it is an ideal model. but we cannot achieve this
-- low bias - high variance: it is **_overfitting_** (predictions are inconsistent and accurate on average)
-- high bias - low variance: it is **_underfitting_** (predictions are consistent and inaccurate on average)
+- high bias & high variance: predictuibs are inconsistent and inaccurate on average
+- low bias & low variance: it is an ideal model. but we cannot achieve this
+- low bias & high variance: it is **_overfitting_** (predictions are inconsistent and accurate on average)
+- high bias & low variance: it is **_underfitting_** (predictions are consistent and inaccurate on average)
 
 ---
 

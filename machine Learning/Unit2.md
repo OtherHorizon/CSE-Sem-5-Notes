@@ -67,3 +67,21 @@
 - High memory storage requires as compared to othre supervised learning algorithm
 - Prediction is slow in case of Big O(N)
 - It is very sensitive to the scale of data as well as irrelevant features.
+
+# Performance Metrics
+- Classification Accuracy
+- Confusion Matrix
+    - $sensitivity =$ $TP \over TP + FN$
+    - Specificity = TN/TN+FP
+    - Precision
+    - accuracy = tp+tn/total sample
+- Area Under Curve
+- F1 score
+- Mean Absolute Error
+- Mean Squared Error
+
+# Area Under Curve (AUC)
+- AUC is one of the most widely used metrics for evaluation
+- it is used for binary classification
+
+# F1 score
