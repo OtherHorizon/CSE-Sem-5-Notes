@@ -85,3 +85,19 @@
 - it is used for binary classification
 
 # F1 score
+_write something ;-;_ 🐢
+
+# Naive Bayes Classifiers (NBC)
+- NBC are a collection of classification algorithm based on Baye's Theorem
+
+|fruits|yellow(Y)|long(L)|sweet(S)|total|
+|:--:|:--:|:--:|:--:|:--:|
+|orange(O)|150|0|100|200|
+|banana(B)|300|350|250|700|
+|others(OT)|150|400|450|800|
+|**Total**|**600**|**750**|**800**|**1700**|
+
+$p(O|Y) = $ $P(Y|O)*P(Y) \over P(O)$
+
+# Decision Tree (CART - Classification and Regression Trees)
+- It s decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.
